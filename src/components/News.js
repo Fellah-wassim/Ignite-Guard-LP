@@ -16,7 +16,10 @@ export const News = () => {
             fanned by drought and a blistering heatwave, that have killed at
             least 38 people and left destruction in their wake.
           </p>
-          <a href="#" className="font-bold">
+          <a
+            href="#"
+            className="font-bold hover:bg-white hover:text-orange duration-200"
+          >
             Learn More &rarr;
           </a>
         </div>
@@ -54,7 +57,7 @@ export const News = () => {
           help to prevent fires from starting and respond more quickly when they
           do.
         </p>
-        <button className="w-fit text-white bg-orange px-4 py-2 font-bold text-xl">
+        <button className="w-fit text-white bg-orange px-4 py-2 font-bold text-xl hover:bg-white hover:text-orange duration-200">
           View All News
         </button>
       </div>

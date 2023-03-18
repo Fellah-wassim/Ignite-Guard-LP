@@ -19,7 +19,7 @@ export const Hero = () => {
           </p>
           <button
             href="#"
-            className="text-white bg-orange px-4 py-2 font-bold text-xl"
+            className="text-white bg-orange px-4 py-2 font-bold text-xl hover:bg-white hover:text-orange duration-200"
           >
             Register Now
           </button>

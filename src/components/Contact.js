@@ -14,11 +14,13 @@ export const Contact = () => {
           <p className="text-2xl text-orange">+213-799-1387</p>
         </div>
       </a>
-      <div className="flex flex-col justify-center items-center gap-2">
-        <img src={mapIcon} alt="phone icon" className="w-[65px] h-[65px]" />
-        <p className="text-4xl text-white ">Address</p>
-        <p className="text-2xl text-orange">Algeria, Algiers</p>
-      </div>
+      <a href="https://www.google.com/maps/?+Algiers%20DZ">
+        <div className="flex flex-col justify-center items-center gap-2">
+          <img src={mapIcon} alt="phone icon" className="w-[65px] h-[65px]" />
+          <p className="text-4xl text-white ">Address</p>
+          <p className="text-2xl text-orange">Algeria, Algiers</p>
+        </div>
+      </a>
       <a href="mailto:ig.guard@gmail.com">
         <div className="flex flex-col justify-center items-center gap-2">
           <img src={Email} alt="phone icon" className="w-[65px] h-[65px]" />

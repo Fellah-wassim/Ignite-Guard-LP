@@ -24,13 +24,13 @@ export const Navbar = () => {
           <li className="p-4 ">
             <a href="#">Contact</a>
           </li>
-          <li className="bg-orange px-4 py-2">
-            <button href="#" className="text-white">
+          <li className="bg-orange text-white hover:bg-white hover:text-orange duration-200 px-4 py-2">
+            <button href="#" className="">
               Sign Up
             </button>
           </li>
-          <li className="bg-secondBlack px-4 py-2 border-orange border-1">
-            <button href="#" className="text-orange">
+          <li className="bg-secondBlack px-4 py-2 border-orange text-orange border-2 hover:text-white hover:bg-orange duration-200">
+            <button href="#" className="">
               Login
             </button>
           </li>
