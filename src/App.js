@@ -7,6 +7,7 @@ import { Footer } from "./components/Footer";
 
 import "./App.css";
 import { News } from "./components/News";
+import { Contact } from "./components/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <How />
       <News />
       <Footer />
+      <Contact />
     </div>
   );
 }
